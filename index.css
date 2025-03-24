@@ -1,0 +1,117 @@
+body.wrap {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 공통 섹션 */
+section {
+  width: 100%;
+  max-width: 1280px;
+  padding: 8px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* header */
+.header {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#tit-main {
+  color: #90cf55;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* main 콘텐츠 */
+.main {
+  width: 100%;
+  max-width: 1280px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+  width: 100%;
+}
+
+.intro img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 8px;
+  margin: 16px;
+  background-color: #eeeeee;
+  outline: 1px solid #ddd;
+}
+
+.intro p {
+  font-size: 16px;
+}
+
+.recommendation h2 {
+  color: #90cf55;
+  font-size: 18px;
+}
+
+.episode-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.episode-list a {
+  color: #588230;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.episode-list a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  font-weight: semi-bold;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.dropdown select {
+  padding: 8px 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 2px solid #90cf55;
+  background-color: #f7fff2;
+  color: #588230;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+.footer {
+  width: 100vw;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+  font-size: 13px;
+  color: #aaa;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
